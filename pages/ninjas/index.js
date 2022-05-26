@@ -25,7 +25,7 @@ const Ninjas = ({players}) => {
             players.map((player)=>{
                 return(
                     
-                        <Link href={`/ninjas/${player.id}`}>
+                        <Link href={`/ninjas/${player.id}`} key={player.id}>
                         <a className={styles.single}>
                         <h5>{player.name}</h5>
                         </a>
