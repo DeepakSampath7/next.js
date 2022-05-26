@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link';
-import styles from '../../styles/players.module.css'
+import styles from '../../styles/Players.module.css'
 
 export const getStaticProps  = async() => {
     const response = await fetch('https://jsonplaceholder.typicode.com/users');
